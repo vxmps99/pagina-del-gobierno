@@ -1,0 +1,137 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.quien{
+      font-family: "Inter", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 700;
+      font-style: normal;
+      color: #B99361;
+    }
+.p{
+      font-family: "Inter", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 200;
+      font-style: normal;
+    }
+.pbold{
+      font-family: "Inter", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 700;
+      font-style: normal;
+    }
+.header{
+    position:sticky;
+    display: flex;
+   padding: 8px;
+   justify-content: space-between;
+   align-items: center;
+   width:85px ;
+   padding: 16px 5%;
+}
+nav{
+    border-top: solid 1.5px rgb(220, 220, 220);
+}
+.listanav{
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+      font-family: "Inter", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 500;
+      font-style: normal;
+    color: #00312D;
+}
+li{
+    display: inline-block;
+    padding: 16px 20px;
+}
+#hero{
+    width: 100vw;
+    height: auto;
+}
+.a{
+    font-family: "Inter", sans-serif;
+    font-size: 40px;
+      font-optical-sizing: auto;
+      font-weight: 800;
+      font-style: normal;
+    color: #ffffff;
+    display: inline-block;
+}
+.sans{
+    position: absolute;
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 60px;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: #ffffff;
+  line-height: 1;
+}
+.wrap{
+    width: 100vw;
+    height: auto;
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    left: 80px;
+    bottom: 380px;
+}
+.containerv{
+    position: absolute;
+    bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap:1vw;
+}
+.container2{
+    position: absolute;
+    width: 100%;
+    left: 320px;
+    top: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap:1vw;
+}
+.container3{
+    position: absolute;
+    width: 100%;
+    left: 216px;
+    bottom: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap:1vw;
+}
+.medium{
+    font-family: "Inter", sans-serif;
+    font-size: 30px;
+      font-optical-sizing: auto;
+      font-weight: 300;
+      font-style: normal;
+    color: #ffffff;
+}
+#cdmx{
+    position: absolute;
+    top: 50px;
+    left: 2px;
+}
+#las{
+    position: absolute;
+}
+.box{
+    position: relative;
+    bottom: 4px;
+    width: 100vw;
+   height: 16vh;
+   padding: 16px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 4px;
+}
